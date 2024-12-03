@@ -1,0 +1,15 @@
+rate_limits:
+  netease:
+    max_requests: 1000
+    window: 60s
+    queue_size: 5000
+    
+  qqmusic:
+    max_requests: 500
+    window: 60s
+    queue_size: 2500
+    
+  spotify:
+    max_requests: 3000
+    window: 3600s
+    queue_size: 10000 
