@@ -38,3 +38,7 @@ Thumbs.db
 
 # 依赖目录
 /node_modules/
+
+# Vercel
+.vercel
+.now
